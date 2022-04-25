@@ -16,20 +16,15 @@ const Footer = () => {
 export default Footer;
 
 const Container = styled.div`
-    width: 100%;
+    width: auto;
     height: 50%;
     text-align:center;
     padding: 50px 0px;  
-    text-align: justify;
-    border: solid 3px black;
-
-
+    border: 3px solid black;
 `
 const Border = styled.div`
     width: 100%;
     height: auto;
-    
-
 `
 const Text = styled.div`
     width: 100%;
