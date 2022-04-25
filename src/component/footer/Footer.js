@@ -19,8 +19,10 @@ const Container = styled.div`
     width: 100%;
     height: 50%;
     text-align:center;
-    padding: 50px 0px;
+    padding: 50px 0px;  
+    text-align: justify;
     border: solid 3px black;
+
 
 `
 const Border = styled.div`
@@ -33,4 +35,5 @@ const Text = styled.div`
     width: 100%;
     text-align: center;
     font-weight: 600;
+    letter-spacing: 3px;
 `

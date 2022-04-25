@@ -4,9 +4,9 @@ import styled from 'styled-components'
 const Comingsoon = () =>{
   return (  
     <Container>
-    <Content>
-      <Img  src='../../../image/Group1189.png' />
-    </Content>
+      <Content>
+        <Img  src='../../../image/Group1189.png' />
+      </Content>
     </Container>
   )
 }
@@ -20,12 +20,13 @@ const Container = styled.div `
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    border: solid 3px black;
+    border-width: 3px 0px 0px 0px ;
+    border-style: solid;
 
 `
 const Img = styled.img`
-    width: 50%;
-    heigth: auto;
+    width: 570px;
+    heigth: 100vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -36,8 +37,8 @@ const Content = styled.div `
   width: 100%;
   backgroud-color: red;
   position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
 `
