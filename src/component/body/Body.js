@@ -2,15 +2,15 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Comingsoon = () =>{
-  return ( 
+  return (  
     <Container>
     <Content>
-      <Img  src='../../../image/Group1189.png'/>
+      <Img  src='../../../image/Group1189.png' />
     </Content>
     </Container>
   )
 }
-export default Comingsoon
+export default Comingsoon;
 
 const Container = styled.div `
     width: 100%;
