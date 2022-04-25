@@ -1,7 +1,7 @@
 const App = () => {
   return ( 
     <div>
-      ngọc lĩnh phạm
+      Phạm Ngọc Lĩnh  front-end
     </div>
    );
 }
