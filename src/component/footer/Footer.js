@@ -6,7 +6,7 @@ const Footer = () => {
         <Container>
             <Border>
                 <Text>
-                    
+                    WE ARE GOING TO LAUCH OUR WEBSITE VERY SOON. PLEASE COME BACK LATER.
                 </Text>
             </Border>
         </Container>
@@ -14,3 +14,23 @@ const Footer = () => {
 }
  
 export default Footer;
+
+const Container = styled.div`
+    width: 100%;
+    height: 50%;
+    text-align:center;
+    padding: 50px 0px;
+    border: solid 3px black;
+
+`
+const Border = styled.div`
+    width: 100%;
+    height: auto;
+    
+
+`
+const Text = styled.div`
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+`

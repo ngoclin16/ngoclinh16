@@ -20,6 +20,8 @@ const Container = styled.div `
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    border: solid 3px black;
+
 `
 const Img = styled.img`
     width: 50%;
