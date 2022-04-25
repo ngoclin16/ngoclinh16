@@ -1,8 +1,12 @@
 const App = () => {
+  
   return ( 
     <div>
-      ngọc lilnhx
+      Ngoc Linh
+      <div>ngoc linh</div>
+      
     </div>
+    
    );
 }
  
