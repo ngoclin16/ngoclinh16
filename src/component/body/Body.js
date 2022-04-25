@@ -14,7 +14,7 @@ export default Comingsoon;
 
 const Container = styled.div `
     width: 100%;
-    height: auto;
+    height: 100vh;
     background: url('../../../image/Vector.png') no-repeat center center/cover;
     display: flex;
     justify-content: center;
