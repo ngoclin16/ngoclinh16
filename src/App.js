@@ -1,11 +1,12 @@
+import Header from "./component/header/Header";
+import Comingsoon from "./component/body/Body";
 const App = () => {
   
   return ( 
-    <div>
-      ngọc lĩnh phạm
-      <div> Hello BaoBao</div>
-      <p>jjjjj</p>
-    </div>
+    <>
+      <Header/>
+      <Comingsoon/>
+    </>
     
     
    );
