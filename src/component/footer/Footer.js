@@ -22,6 +22,7 @@ const Container = styled.div`
     padding: 50px 0px;  
     text-align: justify;
     border: solid 3px black;
+    background: #E5E5E5;
 
 
 `
