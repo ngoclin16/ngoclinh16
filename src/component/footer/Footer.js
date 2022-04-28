@@ -29,8 +29,6 @@ const Container = styled.div`
 const Border = styled.div`
     width: 100%;
     height: auto;
-    
-
 `
 const Text = styled.div`
     width: 100%;
