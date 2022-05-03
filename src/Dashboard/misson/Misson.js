@@ -31,7 +31,6 @@ const Misson = () => {
         </Total3>             
           <Title9>Heatherwick Studio is a team of over 200 problem solvers dedicated to making the physical world around us better for everyone. Based out of our combined workshop and design studio in Central London, we create buildings, spaces, master-plans, objects and infrastructure. Focusing on large scale projects in cities all over the world, we prioritise those with the greatest positive social impact.</Title9>  
       </Total2>
-
        </Column>
     </Container>
   );
@@ -41,6 +40,8 @@ export default Misson;
 const Container = styled.div`
   width: 100%;
   display: grid;
+  margin-left: 20px;
+  margin-bottom: 20px;
   grid-template-columns: 32% 30% 38%;
   padding-left: 30px 0;
   text-align: center;
@@ -113,9 +114,9 @@ const Img1 = styled.img`
 `;
 const Img2 = styled.img`
   width: 379px;
-  height: auto;
+  height: 500px;
   position: absolute;
-  top: 0px;
+  top: 90px;
   right: 0.6000000000000014px;
   z-index: 100;
 `;

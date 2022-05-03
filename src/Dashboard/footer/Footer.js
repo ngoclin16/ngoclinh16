@@ -9,7 +9,7 @@ const Footer = () => {
             </Text>
         </Border>
     </Container>
-  );
+  ); 
 }
 
 export default Footer;
@@ -21,7 +21,7 @@ const Container = styled.div`
     text-align: justify;
     border: solid 3px black;
     background: #E5E5E5;
-    
+    margin-bottom: 20px;  
 `
 const Border = styled.div`
     width: 100%;

@@ -40,7 +40,7 @@ const Hero1 = () => {
 export default Hero1;
 const Container = styled.div`
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 
 `;
 const Nglinh = styled.div`
