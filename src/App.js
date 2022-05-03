@@ -20,7 +20,6 @@ const ContainerApp = styled.div`
 `
   return ( 
     <ContainerApp>
-
       <Header/>
       <Hero/>
       <Footer/>

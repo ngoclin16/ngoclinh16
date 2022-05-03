@@ -40,6 +40,9 @@ const Content = styled.div`
     position: absolute;
     top: 0;
     z-index: 20;
+    @media screen and (max-width: 600px){
+        z-index: 100;
+    }
 `
 const Content1 = styled.div` //superhero
     width: 100%;
@@ -50,6 +53,11 @@ const Content1 = styled.div` //superhero
     left: 40%;
     margin-top: 30px;
     z-index: 70;
+    @media screen and (max-width: 600px){
+        left: 0%;
+        padding-left:0px;
+        top:5rem;
+    }
 
 `
 const Content2 = styled.div` //comic
@@ -63,7 +71,13 @@ const Content2 = styled.div` //comic
     left: 50px;
     margin-top: 160px;
     z-index: 90;
-    
+    @media screen and (max-width: 600px){
+        width: 100%;
+        margin-left:0%;
+        left: 0%;
+        padding-left:0px;
+        top:5rem;
+    }
 
     
 `
@@ -73,6 +87,9 @@ const Content3 = styled.div`
     padding: 100px; 
     position: absolute; 
     top: -120px ;
+    @media screen and (max-width: 600px){
+       z-index:200;
+    }
 `
 const Content4 = styled.div`
     width: 100%;
@@ -91,16 +108,29 @@ const Img = styled.img`
     left: 20px;
     position: absolute;
     z-index: 250;
+    @media screen and (max-width: 600px){
+        width: auto;
+        height:700px;
+        top: 0px;
+        left: -4rem;
+    }
 `
 const Img1 = styled.img` //supper
     width: 550px;
     height: 180px;
     top: 0;
     right: 0;
+    @media screen and (max-width: 600px){
+        width: 100%;
+    }
 `
 const Img2 = styled.img`
     width: 450px;
     height: 130px;
+    @media screen and (max-width: 600px){
+        width: 100%;
+    }
+    
 `
 const Img3 = styled.img`
     width: 250px;
