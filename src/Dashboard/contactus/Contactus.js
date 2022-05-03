@@ -10,22 +10,22 @@ const Contactus = () => {
                 <Title2>Us</Title2>
             </Title>
             <Total>
-
-            <Input>
-                <Input1 type="text" id="fname" name="fname" value="" readonly placeholder='Full name'/>
+                <Input1 type="text" id="name" name="name" value="" readonly placeholder='Full name'/>
                 <Br></Br>
-                <Input2 type="text" id="fname" name="fname" value="" readonly placeholder='Email address'/>
-                <Textarea rows="4" cols="50" name="comment" form="usrform"> 
-                </Textarea>
-            </Input>
-            
+                <Input2 type="text" id="name" name="name" value="" readonly placeholder='Email address'/>
+                {/* <Textarea rows="4" cols="50" name="comment" form="usrform" placeholder='Message'> 
+                </Textarea>    */}
+                <Input3 type="text" id="name" name="name" value="" readonly placeholder='Message'/>
+                <Input type="submit" value="SUBMIT" />           
             </Total>
           </Column>
           <Column>
                 <Image src ="/image/Frame.png"/>
           </Column>
+          <Hr></Hr>
 
       </Container>
+      
   )
 }
 export default Contactus;
@@ -37,13 +37,11 @@ const Container = styled.div`
   margin-bottom: 20px;
   grid-template-columns: 50% 50%;
   padding-left: 30px 0;
-  text-align: center;
-  justify-content: center;
+  
 `;
 
 const Column = styled.div`
   position: relative;
-  /* border: solid 3px #000; */
   margin-left: 20px ;
   background-color: #ffff;
   &:first-child {
@@ -55,27 +53,66 @@ const Title = styled.div`
     display: flex;
     font-weight: 700;
     padding-left: 20%;
+    padding-top: 10%;
 `
 const Title1 = styled.div`
 
 `
 const Title2 = styled.div`
     color: #3B62FF;
-
 `
 const Total = styled.div`
-`
-const Input = styled.div`
     margin-left: 20%;
-    width: 400px;
+    padding-bottom: 50px;
+    
 `
-const Input1 = styled.input``
-const Input2 = styled.input``
+const Input1 = styled.input`
+    width: 392px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+`
+const Input2 = styled.input`
+    width: 392px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
 
-const Textarea = styled.textarea`
+`
+const Input = styled.input` //button
+    background: #3B62FF;
+    color: white;
+    font-weight: 600;
+    width: 160px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    left: 230px;
+    
+    
+`
+
+const Input3 = styled.input` //message
+    width: 392px;
+    padding: 60px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+
 
 `
 const Br = styled.br``
-const Image = styled.image`
+
+const Image = styled.img`
+    padding-top: 15%;
     width: 500px;
+`
+const Hr = styled.hr`
+    width: 1000%;
+    border: 2px solid black;
+    margin-left: -100px;   
 `

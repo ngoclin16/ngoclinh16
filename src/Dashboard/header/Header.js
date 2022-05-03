@@ -12,10 +12,10 @@ export default function Header() {
            </div>
            <div className="nav">
                 <ul className='list'>
-                    <li>HESMAN STUDIO</li>
-                    <li>HESMEN LEGEND</li>
-                    <li>PARTNERS</li>
-                    <li>CONTACT</li>
+                    <li><a href="#">HESMAN STUDIO</a></li>
+                    <li><a href="#">HESMEN LEGEND</a></li>
+                    <li><a href="#">PARTNERS</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
            </div>
            <div className="cloud">
@@ -23,5 +23,5 @@ export default function Header() {
            </div>
        </div>
     </div>
-  )
+  ) 
 }

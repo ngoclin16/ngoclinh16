@@ -12,6 +12,7 @@ import Gallery from "./Dashboard/gallery/Gallery";
 import Ourpartner from "./Dashboard/ourpartner/Ourpartner";
 import styled from "styled-components";
 import Contactus from "./Dashboard/contactus/Contactus";
+import Footer1 from "./Dashboard/footer1/Footer1";
 const App = () => {
 const ContainerApp = styled.div`
   width: 100%;
@@ -29,6 +30,7 @@ const ContainerApp = styled.div`
       <Gallery/>
       <Ourpartner/>
       <Contactus/>
+      <Footer1/>
       
     </ContainerApp>
    );

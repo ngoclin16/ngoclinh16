@@ -16,7 +16,7 @@
     width: 60%;
     display: block;
     font-size: 16px;
-    padding: 20px;
+    padding: 20px; 
 }
 .list {
    display: flex;
@@ -38,3 +38,19 @@
     width: 200px;
     height: auto;
 }
+
+
+/* Mobile: width 375px*/
+/* @media only screen and (max-width: 46.1845em){
+    .nav {
+        
+    }
+    .logo  {
+        width: 10px;
+
+    }
+} */
+/* Tablet: width */
+/* @media only screen and (max-width: ){
+    
+} */

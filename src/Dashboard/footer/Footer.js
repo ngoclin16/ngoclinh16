@@ -29,6 +29,6 @@ const Border = styled.div`
 const Text = styled.div`
     text-align:right;
     font-weight: 600;
-    word-spacing: 5px;
+    word-spacing: 5px; 
     padding-right: 7%;
 `
