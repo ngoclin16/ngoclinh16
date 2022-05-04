@@ -7,7 +7,7 @@ const Hero = () => {
         <Content>
             <Img src = '../../../image/Hesman_021.png'/>
         </Content>
-        <Content1>
+        <Content1> 
             <Img1 src = '/image/superhero.png'/>
         </Content1>
         <Content2>
@@ -18,8 +18,9 @@ const Hero = () => {
         </Content3>
         <Content4>
             <Img4 src = '/image/Present.png'/>
+            
         </Content4>
-        
+        <Hr></Hr>
     </Container>
   );
 }
@@ -27,17 +28,21 @@ const Hero = () => {
 export default Hero;
 
 const Container = styled.div`
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     background: url('/image/Background.png') no-repeat center center/cover;
     position: relative;
+    @media screen and (max-width: 600px){
+    margin-bottom: 50px;  
+        
+    }
 
 `
 
 const Content = styled.div`
     width: 100%;
     height: auto;
-    position: absolute;
+    position: absolute; 
     top: 0;
     z-index: 20;
     @media screen and (max-width: 600px){
@@ -111,8 +116,8 @@ const Img = styled.img`
     @media screen and (max-width: 600px){
         width: auto;
         height:700px;
-        top: 0px;
-        left: -4rem;
+        top: -110px;
+        left: -5rem;
     }
 `
 const Img1 = styled.img` //supper
@@ -122,6 +127,8 @@ const Img1 = styled.img` //supper
     right: 0;
     @media screen and (max-width: 600px){
         width: 100%;
+        height: 120px;
+        z-index: 100;
     }
 `
 const Img2 = styled.img`
@@ -129,15 +136,22 @@ const Img2 = styled.img`
     height: 130px;
     @media screen and (max-width: 600px){
         width: 100%;
+        margin-top: -78px;
+        margin-left: 68px;
     }
     
 `
 const Img3 = styled.img`
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 220px;
     margin-left:-100px;
+    @media screen and (max-width: 600px){
+        width: 220px;
+        height: 225px;
+        margin-top: 17px;
+    }
     
-`
+`   
 const Img4 = styled.img` //present
     width: 300px;
     height: 250px;
@@ -145,4 +159,9 @@ const Img4 = styled.img` //present
     top: 0;
     position: absolute;
 
+`
+const Hr = styled.hr`
+    width: 1000%;
+    border: 2px solid black;
+    margin-left: -100px;   
 `

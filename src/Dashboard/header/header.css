@@ -8,6 +8,7 @@
     width: 20%;
     left: 20px; 
 }
+
 .container {
     width: 100%;
     display: flex;  
@@ -34,23 +35,33 @@
     position: absolute;
     right: -20px;
 }
+
 .lgo2 {
     width: 200px;
     height: auto;
+   
+}
+.btn-mobile {
+    display: none;
+}
+@media screen and (max-width: 375px){
+    .cloud {
+        display: none;  
+    }
+    .lgo1 {
+        width: 100px;
+        margin: 30px;
+    }
+    .list {
+        display: none;
+    }
+    .btn-mobile {
+        display: inline;
+        margin: 29px;
+        color: #3b62ff;
+        font-size: 50px;
+    }
+
+
 }
 
-
-/* Mobile: width 375px*/
-/* @media only screen and (max-width: 46.1845em){
-    .nav {
-        
-    }
-    .logo  {
-        width: 10px;
-
-    }
-} */
-/* Tablet: width */
-/* @media only screen and (max-width: ){
-    
-} */

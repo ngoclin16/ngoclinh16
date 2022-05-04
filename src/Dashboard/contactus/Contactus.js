@@ -91,9 +91,7 @@ const Input = styled.input` //button
     box-sizing: border-box;
     border: none;
     position: relative;
-    left: 230px;
-    
-    
+    left: 230px;  
 `
 
 const Input3 = styled.input` //message
@@ -106,7 +104,7 @@ const Input3 = styled.input` //message
 
 `
 const Br = styled.br``
-
+ 
 const Image = styled.img`
     padding-top: 15%;
     width: 500px;

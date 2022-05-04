@@ -22,7 +22,7 @@ const ContainerApp = styled.div`
     <ContainerApp>
       <Header/>
       <Hero/>
-      <Footer/>
+      {/* <Footer/> */}
       <Hero1/>
       <Misson/>
       <Ourteam/>

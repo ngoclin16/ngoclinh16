@@ -31,4 +31,7 @@ const Text = styled.div`
     font-weight: 600;
     word-spacing: 5px; 
     padding-right: 7%;
+    @media screen and (max-width: 600px){
+        font-size: 20px;
+    }
 `
