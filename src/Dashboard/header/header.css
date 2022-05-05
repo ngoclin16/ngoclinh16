@@ -1,28 +1,25 @@
 .header {
     width: 100%;
-    height: 100px;
     position: relative; 
     z-index: 200;
+    display: flex;
 }
-.logo{
+/* .logo{
     width: 20%;
     left: 20px; 
-}
+} */
 
 .container {
     width: 100%;
     display: flex;  
 }
+
 .nav {
-    width: 60%;
-    display: block;
-    font-size: 16px;
-    padding: 20px; 
+    width: 100%;
+    background-color: #2980b9;
 }
 .list {
-   display: flex;
-   justify-items: center;
-   justify-content: space-between;
+    display: flex;
 }
 .list li {
     list-style: none;
@@ -30,20 +27,47 @@
     font-family: 'Chakra Petch', sans-serif;
     font-size: 18px;
 }
+
+.list li a {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.list li:hover a{
+    background-color: #d35400;
+    transition: all 0.3s;
+}
 .cloud {
     width: 20%;
     position: absolute;
     right: -20px;
 }
-
 .lgo2 {
     width: 200px;
-    height: auto;
-   
+    height: auto;  
 }
-.btn-mobile {
+.btn-mobile{
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    .list {
+        flex-direction: column;
+        text-align: center;
+        margin-left: -40px;
+    }
+    .btn-mobile {
+        position: absolute;
+        right: 0;
+        font-size: 30px;
+        display: block;
+        cursor: pointer;
+}
+}
+
 @media screen and (max-width: 375px){
     .cloud {
         display: none;  
@@ -52,15 +76,12 @@
         width: 100px;
         margin: 30px;
     }
-    .list {
-        display: none;
-    }
-    .btn-mobile {
+    /* .btn-mobile {
         display: inline;
         margin: 29px;
         color: #3b62ff;
         font-size: 50px;
-    }
+    } */
 
 
 }

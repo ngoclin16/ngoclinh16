@@ -7,11 +7,11 @@ export default function Header() {
   return (
     <div className='header'> 
        <div className='container'>
-           <div className="logo">
+           {/* <div className="logo">
                 <img src="../../../image/Logo_11.png" className='lgo1' />
-           </div>
+           </div> */}
+           
            <div className="nav">
-           <i class="fa fa-align-justify" aria-hidden="true"></i>
                 <ul className='list'>
                     <li><a href="#">HESMAN STUDIO</a></li>
                     <li><a href="#">HESMEN LEGEND</a></li>
@@ -20,9 +20,9 @@ export default function Header() {
                 </ul>
            </div>
            
-           <div className="cloud">
+           {/* <div className="cloud">
                <img src="../../../image/JoinNow.png" className='lgo2' />
-           </div>
+           </div> */}
 
            <div className='btn-mobile'>
              <HiMenuAlt4/>

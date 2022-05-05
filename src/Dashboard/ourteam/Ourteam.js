@@ -15,11 +15,22 @@ const Ourteam = () => {
         </Column>
         
       <Total2>
-          <Img1 src = '/image/Group-68.png'/>
-          {/* <Img0 src = '/image/hunglan.png'/> */}
-          <Img2 src = '/image/Group-65.png'/>
-          <Img3 src = '/image/Group-66.png'/>
-          <Img4 src = '/image/Group-67.png'/>
+        <Imgcontainer>
+            <Img1 src = '/image/Group-68.png'/>
+        </Imgcontainer>
+
+        <Imgcontainer>
+            <Img2 src = '/image/Group-65.png'/>       
+        </Imgcontainer>
+
+        <Imgcontainer>
+            <Img3 src = '/image/Group-66.png'/>
+        </Imgcontainer>
+
+        <Imgcontainer>
+            <Img4 src = '/image/Group-67.png'/>
+        </Imgcontainer>
+
       </Total2>
       <Footer1>
         <Border>
@@ -39,6 +50,9 @@ const Container = styled.div`
     display: grid;
     grid-template-columns: 32% 68%;
     margin-bottom: 20px;
+    @media screen and (max-width: 600px) {
+        display: block;
+    }
 `
 const Footer1 = styled.div`
     width: 312%;
@@ -74,6 +88,9 @@ const Total = styled.div`
     top: 40px;
     font-weight: 700;
     margin-top: 80px;
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
 `
 const Title1 = styled.div`
     line-height: 0.2;
@@ -96,6 +113,12 @@ const Total2 = styled.div`
     height: auto;
     /* position: absolute; */
     display: flex;
+    @media screen and (max-width: 600px) {
+        /* display: none; */
+    }
+` 
+const Imgcontainer = styled.div`
+
 `
 const Img1 = styled.img`
     width: 450px;

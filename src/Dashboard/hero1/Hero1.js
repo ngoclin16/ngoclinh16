@@ -59,7 +59,7 @@ const Nglinh = styled.div`
   grid-template-columns: 20% 42% 38%;
   padding-left: 30px 0;
   @media screen and (max-width: 600px){
-    margin-bottom: -38px;  
+    margin-bottom: -45px;  
     display: block;
     padding-bottom: 30px;
   }
@@ -75,6 +75,7 @@ const Column = styled.div`
   }
   @media screen and (max-width: 600px){ 
     margin-left: 0px;  
+    margin-bottom: 10px;
   }
 `;
 
@@ -92,6 +93,8 @@ const Img2 = styled.img`
   @media screen and (max-width: 600px){
     width: 100%;
     height: 100vh;
+    border: 3px solid black;
+    margin-left: -3px;
   }
 `;
 const Group = styled.div`

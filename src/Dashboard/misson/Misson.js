@@ -8,7 +8,7 @@ const Misson = () => {
         <Img src="/image/gr1.png" />
         <Img1 src="/image/gr2.png" />
       </Column>
-      <Column>
+      <Column> 
         <Img2 src="/image/Group.png"/>
         <Inl>
           <Total>
@@ -74,7 +74,8 @@ const Inl = styled.div`
   font-weight: 700;
   @media screen and (max-width: 600px) {
     margin-left: -1px;
-    margin-top: 40px;
+    margin-top: -9px;
+    height: 100vh;
   }
 `;
 const Total = styled.div`
@@ -140,10 +141,10 @@ const Title6 = styled.div`
 const Img = styled.img`
   width: 100%;
   height: 100%;
+  
   @media screen and (max-width: 600px) {
     display: block;
     padding-right: 150px;
-
   }
 `;
 
@@ -164,16 +165,18 @@ const Img1 = styled.img`
 `;
 const Img2 = styled.img`
   width: 379px;
-  height: 00px;
+  height: 100%;
   position: absolute;
-  top: 90px;
   right: 0.6000000000000014px;
   z-index: 100;
+  border: solid 3px black;
+
   @media screen and (max-width: 600px) {
     padding-left: 30px;
     height: 100vh;
     border: solid 3px black;
     width: 400px;
+    margin-top: 35px;
 }
 `;
 const Total2 = styled.div`
@@ -185,6 +188,7 @@ const Total2 = styled.div`
   font-weight: 700;
   text-align: left;
   line-height: 1.3;
+  
   @media screen and (max-width: 600px) {
     text-align:left;
     padding: 0 10px;
