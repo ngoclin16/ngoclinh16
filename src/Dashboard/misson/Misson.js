@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Misson = () => {
   return (
     <Container>
-      <Column>
+      <Column> 
         <Img src="/image/gr1.png" />
         <Img1 src="/image/gr2.png" />
       </Column>
@@ -46,14 +46,23 @@ const Container = styled.div`
   padding-left: 30px 0;
   text-align: center;
   justify-content: center;
+  @media screen and (max-width: 600px){
+    margin-bottom: 20px;  
+    display: block;
+    padding-bottom: 30px;
+  }
 `;
 const Column = styled.div`
   position: relative;
-  border: solid 3px #000;
   margin-left: 20px ;
   background-color: #ffff;
   &:first-child {
     margin-left: 0;
+  }
+  @media screen and (max-width: 600px){
+    margin-bottom: 20px;  
+    display: block;
+    padding-bottom: 30px;
   }
 `;
 const Inl = styled.div`
@@ -67,17 +76,27 @@ const Inl = styled.div`
 const Total = styled.div`
   font-size: 80px;
   margin-bottom: 10px;
+  @media screen and (max-width: 600px) {
+    display: none;
+}
 `;
 const Title1 = styled.div`
   line-height: 0.1;
+  @media screen and (max-width: 600px) {
+    display: none;
+}
 `;
 const Title2 = styled.div`
   color: #3b62ff;
+  
 `;
 
 const Total1 = styled.div`
   line-height: 1.3;
   font-weight: 700;
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 
 `;
 const Title3 = styled.div`
@@ -100,6 +119,9 @@ const Title6 = styled.div`
 const Img = styled.img`
   width: 100%;
   height: 100%;
+  @media screen and (max-width: 600px) {
+    display: block;
+  }
 `;
 
 const Img1 = styled.img`
@@ -111,6 +133,9 @@ const Img1 = styled.img`
   left: 5px;
   right: 1px;
   bottom: 80px;
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `;
 const Img2 = styled.img`
   width: 379px;
@@ -119,6 +144,9 @@ const Img2 = styled.img`
   top: 90px;
   right: 0.6000000000000014px;
   z-index: 100;
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `;
 const Total2 = styled.div`
   position: absolute;
@@ -129,21 +157,35 @@ const Total2 = styled.div`
   font-weight: 700;
   text-align: left;
   line-height: 1.3;
+  @media screen and (max-width: 600px) {
+    text-align:left;
+    padding: 0 10px;
+    display: none;
+  }
 
 `;
 
 const Total3 = styled.div`
   font-size: 80px;
+  @media screen and (max-width: 600px) {
+    font-size: 50px;
+  }
+  
 `;
 const Title7 = styled.div`
   line-height: 0.2;
+  
 `;
 const Title8 = styled.div`
   color: #3b62ff;
+  
 `;
 const Title9 = styled.div`
   font-size: 13.8px;
   color: #333333;
   line-height: 20px;
   font-weight: 400;
+  @media screen and (max-width: 600px) {
+    font-size: 10px;
+  }
 `;

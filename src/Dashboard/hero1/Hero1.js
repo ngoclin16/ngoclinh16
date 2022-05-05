@@ -96,7 +96,7 @@ const Img3 = styled.img`
     /* display: none; */
    }
 `;
-const Img4 = styled.img`
+const Img4 = styled.img` 
   max-width: 100%;
   height: auto;
   position: absolute;
@@ -117,7 +117,6 @@ const AboutUs = styled.div`
   @media screen and (max-width: 600px) {
     text-align:left;
     padding: 0 10px;
-
   }
 `;
 
