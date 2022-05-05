@@ -9,7 +9,7 @@ const Misson = () => {
         <Img1 src="/image/gr2.png" />
       </Column>
       <Column>
-        <Img2 src="/image/Group.png" />
+        <Img2 src="/image/Group.png"/>
         <Inl>
           <Total>
             <Title1>Our</Title1>
@@ -39,6 +39,7 @@ export default Misson;
 
 const Container = styled.div`
   width: 100%;
+  height: 700px;
   display: grid;
   margin-left: 20px;
   margin-bottom: 20px;
@@ -50,6 +51,7 @@ const Container = styled.div`
     margin-bottom: 20px;  
     display: block;
     padding-bottom: 30px;
+    width: 100%;
   }
 `;
 const Column = styled.div`
@@ -57,12 +59,10 @@ const Column = styled.div`
   margin-left: 20px ;
   background-color: #ffff;
   &:first-child {
-    margin-left: 0;
+    margin-left: -26px;
   }
-  @media screen and (max-width: 600px){
-    margin-bottom: 20px;  
-    display: block;
-    padding-bottom: 30px;
+  @media screen and (max-width: 600px){ 
+    margin-left:-26px;  
   }
 `;
 const Inl = styled.div`
@@ -72,55 +72,78 @@ const Inl = styled.div`
   z-index: 100;
   justify-content: center;
   font-weight: 700;
+  @media screen and (max-width: 600px) {
+    margin-left: -1px;
+    margin-top: 40px;
+  }
 `;
 const Total = styled.div`
   font-size: 80px;
   margin-bottom: 10px;
   @media screen and (max-width: 600px) {
-    display: none;
+    font-size: 70px;
+
 }
 `;
 const Title1 = styled.div`
   line-height: 0.1;
   @media screen and (max-width: 600px) {
-    display: none;
 }
 `;
 const Title2 = styled.div`
-  color: #3b62ff;
-  
+  color: #3b62ff; 
 `;
 
 const Total1 = styled.div`
   line-height: 1.3;
   font-weight: 700;
   @media screen and (max-width: 600px) {
-    display: none;
-  }
+    
+}
 
 `;
 const Title3 = styled.div`
   font-size: 35px;
   line-height: 1.0;
   color: #3b62ff;
+  @media screen and (max-width: 600px) {
+    font-size: 30px;
+    font-weight: 700;
+  }
 `;
 const Title4 = styled.div`
   font-size: 35px;
+  @media screen and (max-width: 600px) {
+    font-size: 30px;
+    font-weight: 700;
+
+  }
 `;
 const Title5 = styled.div`
   font-size: 150px;
   line-height: 0.9;
   color: #3b62ff;
+  @media screen and (max-width: 600px) {
+    font-size: 120px;
+    
+  }
 `;
 const Title6 = styled.div`
-  font-size: 22px;
+  font-size: 21px;
   line-height: 1.0;
+  font-weight: 700;
+  @media screen and (max-width: 600px) {
+    
+  }
+
 `;
 const Img = styled.img`
   width: 100%;
   height: 100%;
   @media screen and (max-width: 600px) {
     display: block;
+    padding-right: 150px;
+
   }
 `;
 
@@ -128,25 +151,30 @@ const Img1 = styled.img`
   width: 475px;
   height: auto;
   position: absolute;
-  top: 70px;
+  top: 120px;
   z-index: 190;
   left: 5px;
   right: 1px;
   bottom: 80px;
   @media screen and (max-width: 600px) {
-    display: none;
+    width: 407px;
+    height: auto;
+    top: 111px;
   }
 `;
 const Img2 = styled.img`
   width: 379px;
-  height: 500px;
+  height: 00px;
   position: absolute;
   top: 90px;
   right: 0.6000000000000014px;
   z-index: 100;
   @media screen and (max-width: 600px) {
-    display: none;
-  }
+    padding-left: 30px;
+    height: 100vh;
+    border: solid 3px black;
+    width: 400px;
+}
 `;
 const Total2 = styled.div`
   position: absolute;

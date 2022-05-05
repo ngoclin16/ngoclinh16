@@ -34,8 +34,11 @@ const Hero1 = () => {
           </AboutUs>
         </Column>
         <Column>
-          <Img3 src="image/image3.png" />
-          <Img4 src="image/lanhchuaoman.png" />
+        <Group>
+            <Img3 src="image/image3.png" />
+            <Img4 src="image/lanhchuaoman.png" />
+        </Group>
+          
         </Column>
       </Nglinh>   
     </Container>
@@ -56,7 +59,7 @@ const Nglinh = styled.div`
   grid-template-columns: 20% 42% 38%;
   padding-left: 30px 0;
   @media screen and (max-width: 600px){
-    margin-bottom: 20px;  
+    margin-bottom: -38px;  
     display: block;
     padding-bottom: 30px;
   }
@@ -69,6 +72,9 @@ const Column = styled.div`
   background-color: #ffff;
   &:first-child {
     margin-left: 0;
+  }
+  @media screen and (max-width: 600px){ 
+    margin-left: 0px;  
   }
 `;
 
@@ -88,13 +94,22 @@ const Img2 = styled.img`
     height: 100vh;
   }
 `;
-
+const Group = styled.div`
+  width: 100%;
+  height: 100%;
+  @media screen and (max-width: 600px) {
+    border: solid 4px black;
+    height: 100vh;
+  }
+`
 const Img3 = styled.img`
   width: 100%;
   height: 100%;
   @media screen and (max-width: 600px){
-    /* display: none; */
-   }
+    width: 100%;
+    height: 100vh;
+    
+}
 `;
 const Img4 = styled.img` 
   max-width: 100%;
@@ -104,6 +119,7 @@ const Img4 = styled.img`
   right: 40px;
   @media screen and (max-width: 600px) {
     height: 450px;
+    
   }
 `;
 const AboutUs = styled.div`

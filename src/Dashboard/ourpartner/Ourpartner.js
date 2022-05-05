@@ -4,9 +4,9 @@ import styled from 'styled-components'
 const Ourpartner = () => {
   return (
         <Container>
-                {/* <Hinh>
-                    <Img src ='/image/Cloud.png'/>
-                </Hinh> */}
+                
+                    {/* <Img src ='/image/Cloud.png'/> */}
+                
                 <Total>                
                     <Title>
                         <Title1>Our</Title1>
@@ -35,7 +35,7 @@ const Container = styled.div`
     background-repeat: no-repeat;
 `
 const Total = styled.div`
-    margin-bottom: 20px;  
+    padding-right: 100px;
 `
 
 const Title = styled.span`
@@ -44,9 +44,7 @@ const Title = styled.span`
     display: flex;
     padding-top: 70px;
     padding-bottom: 20px;
-    justify-content: center;
-
-    
+    justify-content: center;  
 `
 const Title1 = styled.div`
 
@@ -54,10 +52,10 @@ const Title1 = styled.div`
 const Title2 = styled.div`
     color: #3B62FF;
 `
-// const Img = styled.img`
-//     width: 100%;
-//     height: 100%;
-// `
+const Img = styled.img`
+    width: 100%;
+    height: 100%;
+`
 const Img0 = styled.div`
     width: 100%;
     text-align: center;
