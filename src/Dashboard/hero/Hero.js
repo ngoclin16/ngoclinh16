@@ -33,8 +33,8 @@ const Container = styled.div`
     background: url('/image/Background.png') no-repeat center center/cover;
     position: relative;
     @media screen and (max-width: 600px){
-    margin-bottom: 50px;  
-        
+        margin-bottom: 50px; 
+            
     }
 
 `
@@ -47,7 +47,6 @@ const Content = styled.div`
     z-index: 20;
     @media screen and (max-width: 600px){
         z-index: 100;
-        width: 100%;
     }
 `
 const Content1 = styled.div` //superhero
@@ -112,13 +111,10 @@ const Img = styled.img`
     height: auto;
     top: -70px;
     left: 20px;
-    position: absolute;
-    z-index: 250;
     @media screen and (max-width: 600px){
-        width: auto;
-        height:700px;
-        top: -110px;
-        left: -5rem;
+        width: 444px;
+        height:auto;
+        
     }
 `
 const Img1 = styled.img` //supper

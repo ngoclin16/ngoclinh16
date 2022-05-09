@@ -13,25 +13,15 @@ const Ourteam = () => {
             <Title3>Heatherwick Studio is a team of over 200 problem solvers dedicated to making the physical world around us better for everyone. Based out of our combined workshop and design studio in Central London, we create buildings, spaces, master-plans, objects and infrastructure. Focusing on large scale projects in cities all over the world, we prioritise those with the greatest positive social impact.</Title3>  
         </Total>
         </Column>
-        
-      <Total2>
-        <Imgcontainer>
-            <Img1 src = '/image/Group-68.png'/>
-        </Imgcontainer>
-
-        <Imgcontainer>
-            <Img2 src = '/image/Group-65.png'/>       
-        </Imgcontainer>
-
-        <Imgcontainer>
-            <Img3 src = '/image/Group-66.png'/>
-        </Imgcontainer>
-
-        <Imgcontainer>
-            <Img4 src = '/image/Group-67.png'/>
-        </Imgcontainer>
-
-      </Total2>
+        <Column>
+            <Total2>
+                <Img1 src = '/image/Group-68.png'/>
+                <Img2 src = '/image/Group-65.png'/>       
+                <Img3 src = '/image/Group-66.png'/>
+                <Img4 src = '/image/Group-67.png'/>
+            </Total2>
+        </Column>
+            
       <Footer1>
         <Border>
             <Text>
@@ -53,13 +43,29 @@ export default Ourteam;
 
 const Container = styled.div`
     width: 100%;
+    display: flex;
+    justify-content: center;
     display: grid;
     grid-template-columns: 32% 68%;
-    margin-bottom: 20px;
-    margin-left: -2px;
+    /* margin-bottom: 20px;
+    margin-left: -2px; */
+    gap: 25px;
     @media screen and (max-width: 600px) {
         display: block; 
     }
+`
+const Column = styled.div`
+    width: 100%;
+    /* position: relative; */
+    border: 3px #000;
+    display: grid;
+    grid-template-columns: 32% 68%;
+    &:first-child {
+    margin-left: 30px;
+    @media screen and (max-width: 600px) {
+        grid-template-columns: 100%;
+    }
+  }
 `
 const Footer1 = styled.div`
     width: 312%;
@@ -84,25 +90,19 @@ const Text = styled.div`
     word-spacing: 5px;
     padding-right: 7%;
 `
-const Column = styled.div`
-    position: relative;
-    border: 3px #000;
-    margin-left: 20px ;
-    background-color: #ffff;
-    &:first-child {
-    margin-left: 30px;
-    @media screen and (max-width: 600px) {
-        display: block;
-    }
-  }
-`
+
 const Total = styled.div`
     margin-bottom: 30px;
     position: absolute;
-    top: 40px;
+    /* top: 40px; */
     font-weight: 700;
     margin-top: 80px;
     @media screen and (max-width: 600px) {
+        margin-bottom: 30px;
+    /* position: absolute; */
+    /* top: 100px; */
+        font-weight: 700;
+        margin-top: 80px;
     }
 `
 const Title1 = styled.div`
@@ -125,13 +125,19 @@ const Total1 = styled.div`
 const Title3 = styled.div`
     font-size: 15px;
     font-weight: 400;
+    position: absolute;
+    @media screen {
+        line-height: 20px;
+    }
 
 `
 const Total2 = styled.div`
     width: 100%;
     height: auto;
-    /* position: absolute; */
     display: flex;
+    @media screen and (max-width: 600px) {
+        width: 500px;
+    }
     
 ` 
 const Imgcontainer = styled.div`
@@ -139,10 +145,11 @@ const Imgcontainer = styled.div`
 `
 const Img1 = styled.img`
     width: 450px;
-    height: 500px;
-    margin-right: -155px;
+    height: 450px;
+    margin-right: -110px;
     @media screen and (max-width: 600px) {
         display: block;
+        width: 356px;
     }
 `
 // const Img0 = styled.img`
@@ -152,29 +159,36 @@ const Img1 = styled.img`
 const Img2 = styled.img`
     position: relative;
     width: 450px;
-    height: 500px;
-    margin-right: -155px;
+    height: 450px;
+    margin-right: -110px;
     filter: grayscale(1);
     &:hover{
         filter: grayscale(0);
     } 
+    @media screen and (max-width: 600px) {
+        width: 356px;
+    }
 `
 const Img3 = styled.img`
-    margin-right: -155px;
+    margin-right: -110px;
     width: 450px;
-    height: 500px;
+    height: 450px;
     filter: grayscale(1);
     &:hover{
         filter: grayscale(0);
+    }@media screen and (max-width: 600px) {
+        display: none;
     }
 `
 const Img4 = styled.img`
     width: 450px;
-    height: 500px;
+    height: 450px;
     filter: grayscale(1);
     &:hover{
         filter: grayscale(0);
-    }
+    }@media screen and (max-width: 600px) {
+        display: none;
+    }   
 `
 const Hr = styled.hr`
     width: 1000%;

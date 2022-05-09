@@ -3,7 +3,7 @@ import './header.css'
 import {HiMenuAlt4} from 'react-icons/hi'
 
 export default function Header() {
-  const [close, setClose] = useState(false)
+  // const [close, setClose] = useState(false)
  
   return (
     <div className='header'>  
@@ -13,13 +13,13 @@ export default function Header() {
            </div> 
            
            <div className="nav">
-           {close &&  
-               <ul className='menu menu-close' >
+           
+               <ul className='menu' >
                     <li><a href="#">HESMAN STUDIO</a></li>
                     <li><a href="#">HESMEN LEGEND</a></li>
                     <li><a href="#">PARTNERS</a></li>
                     <li><a href="#">CONTACT</a></li>
-                </ul>}
+                </ul>
               
            </div>
            
@@ -27,7 +27,7 @@ export default function Header() {
                <img src="../../../image/JoinNow.png" className='lgo2' />
            </div> */}
 
-           <div className="btn-mobile" onClick={() => setClose(!close)}>
+           <div className="btn-mobile">
              <HiMenuAlt4/>
            </div>   
            

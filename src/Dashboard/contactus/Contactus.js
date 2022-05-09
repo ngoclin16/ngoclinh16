@@ -55,7 +55,7 @@ const Title = styled.div`
     font-size: 70px;
     display: flex;
     font-weight: 700;
-    padding-left: 20%;
+    justify-content: center;
     padding-top: 10%;
     @media screen and (max-width: 600px) {
       display: block;
@@ -65,6 +65,8 @@ const Title = styled.div`
 `
 const Title1 = styled.div`
     @media screen and (max-width: 600px) {
+        line-height:60px;
+
     }
 `
 const Title2 = styled.div`
@@ -82,22 +84,24 @@ const Total = styled.div`
      
 `
 const Input1 = styled.input`
-    width: 330px;
+    width: 400px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid black;
     @media screen and (max-width: 600px) {
+        width: 330px;
         border: solid 3px black;
     }
 `
 const Input2 = styled.input`
-    width: 330px;
+    width: 400px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid black;
     @media screen and (max-width: 600px) {
+        width: 330px;
         border: solid 3px black;
     }
 
@@ -107,24 +111,26 @@ const Input = styled.input` //button
     color: white;
     font-weight: 600;
     width: 160px;
+    height: 50px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
     position: relative;
-    left: 230px;  
+    left: 239px;  
     @media screen and (max-width: 600px) {
         left: 90px;
     }
 `
 
 const Input3 = styled.input` //message
-    width: 330px;
+    width: 400px;
     padding: 60px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid black;
     @media screen and (max-width: 600px) {
+        width: 330px;
         border: solid 3px black;
     }
 

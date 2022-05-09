@@ -97,7 +97,7 @@ const Img = styled.img `
   @media screen and (max-width: 600px) {
     margin: 0px;
     width: 370px;
-    border: solid 2px black;
+    border: solid 2px black;margin-bottom: -5px;
 
   }
 `

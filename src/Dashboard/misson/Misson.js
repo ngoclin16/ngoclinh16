@@ -149,10 +149,10 @@ const Img = styled.img`
 `;
 
 const Img1 = styled.img`
-  width: 475px;
+  width: 490px;
   height: auto;
   position: absolute;
-  top: 120px;
+  top: 98px;
   z-index: 190;
   left: 5px;
   right: 1px;
@@ -165,12 +165,12 @@ const Img1 = styled.img`
   }
 `;
 const Img2 = styled.img`
-  width: 379px;
-  height: 100%;
+  width: 392px;
+  height: auto;
   position: absolute;
-  right: 0.6000000000000014px;
+  right: -20px;
   z-index: 100;
-  border: solid 3px black;
+  border: solid 5px black;
 
   @media screen and (max-width: 600px) {
     padding-left: 30px;

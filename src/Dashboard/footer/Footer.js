@@ -22,6 +22,7 @@ const Container = styled.div`
     border: solid 3px black;
     background: #E5E5E5;
     margin-bottom: 20px;  
+    
 `
 const Border = styled.div`
     width: 100%;

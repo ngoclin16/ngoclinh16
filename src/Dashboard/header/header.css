@@ -21,6 +21,8 @@
 }
 .menu {
     display: flex;
+    text-align: center;
+    justify-content: center;
 }
 .menu li {
     list-style: none;
@@ -52,7 +54,7 @@
     height: auto;  
 }
 .btn-mobile{
-    display: block;
+    display: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -61,7 +63,7 @@
         text-align: center;
         display: block;
         margin-left: -40px;
-        /* display: none; */
+        display: none;
 
     }
     
