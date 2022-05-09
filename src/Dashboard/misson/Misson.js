@@ -177,7 +177,6 @@ const Img2 = styled.img`
     height: 100vh;
     border: solid 3px black;
     width: 400px;
-    margin-top: 35px;
 
 }
 `;

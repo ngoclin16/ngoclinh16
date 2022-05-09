@@ -59,20 +59,18 @@ const Title = styled.div`
     padding-top: 10%;
     @media screen and (max-width: 600px) {
       display: block;
-      text-align: center;margin-right: 61px;
+      text-align: center;
+      margin-right: 36px;
   }
 `
 const Title1 = styled.div`
     @media screen and (max-width: 600px) {
-        font-size: 50px;
-        line-height: 40px;
     }
 `
 const Title2 = styled.div`
     color: #3B62FF;
     @media screen and (max-width: 600px) {
-        font-size: 50px;
-        line-height: 40px;
+        line-height:60px;
     }
 `
 const Total = styled.div`
@@ -84,18 +82,24 @@ const Total = styled.div`
      
 `
 const Input1 = styled.input`
-    width: 392px;
+    width: 330px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid black;
+    @media screen and (max-width: 600px) {
+        border: solid 3px black;
+    }
 `
 const Input2 = styled.input`
-    width: 392px;
+    width: 330px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid black;
+    @media screen and (max-width: 600px) {
+        border: solid 3px black;
+    }
 
 `
 const Input = styled.input` //button
@@ -109,15 +113,20 @@ const Input = styled.input` //button
     border: none;
     position: relative;
     left: 230px;  
+    @media screen and (max-width: 600px) {
+        left: 90px;
+    }
 `
 
 const Input3 = styled.input` //message
-    width: 392px;
+    width: 330px;
     padding: 60px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid black;
-
+    @media screen and (max-width: 600px) {
+        border: solid 3px black;
+    }
 
 `
 const Br = styled.br``

@@ -21,13 +21,13 @@ const ContainerApp = styled.div`
     <ContainerApp> 
       <Header/>
       <Hero/>      
-      <Hero1/>
+      {/* <Hero1/>
       <Misson/>
       <Ourteam/>
       <Gallery/>
       <Ourpartner/>
       <Contactus/>
-      <Footer1/>     
+      <Footer1/>      */}
     </ContainerApp>
    );
 }

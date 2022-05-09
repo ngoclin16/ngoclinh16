@@ -43,7 +43,7 @@ const Container = styled.div `
 const Column = styled.div `
   position: relative;
   margin-left: 20px ;
-  background-color: #ffff;
+  /* background-color: #ffff; */
   &:first-child {
     margin-left: 0px;
   }
@@ -63,7 +63,7 @@ const Total1 = styled.div `
   display: flex;
 `
 const Total2 = styled.div `
-  margin-left: -23px;
+  padding-right: 35px;
 `
 const Title = styled.div `
   width: 100%;
@@ -93,10 +93,10 @@ const Title2 = styled.div `
 const Img = styled.img `
   width: 900px;
   height: auto;
+  margin-left: 8px;
   @media screen and (max-width: 600px) {
-    margin-bottom: -5px;
-    width: 368px;
-    margin-right: 3px;
+    margin: 0px;
+    width: 370px;
     border: solid 2px black;
 
   }
@@ -107,7 +107,7 @@ const Img1 = styled.img `
   border: solid 3px #000;
   @media screen and (max-width: 600px){
     margin-bottom: -5px;
-    
+    height: 154px;
   }
 `
 const Img2 = styled.img `
@@ -115,6 +115,7 @@ const Img2 = styled.img `
   margin-bottom: 9px;
   border: solid 3px #000;
   @media screen and (max-width: 600px){
+    height: 154px;
     margin-bottom: -5px;
     filter: grayscale(1);
     &:hover{
@@ -126,6 +127,7 @@ const Img3 = styled.img `
   height: 162px;
   border: solid 3px #000;
   @media screen and (max-width: 600px) {
+    height: 154px;
     filter: grayscale(1);
     &:hover{
         filter: grayscale(0);
