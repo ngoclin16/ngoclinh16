@@ -5,14 +5,14 @@ import {HiMenuAlt4} from 'react-icons/hi'
 export default function Header() {
 
   return (
-    <div className='header'> 
+    <div className='header'>  
        <div className='container'>
-           {/* <div className="logo">
+           <div className="logo">
                 <img src="../../../image/Logo_11.png" className='lgo1' />
-           </div> */}
+           </div>
            
            <div className="nav">
-                <ul className='list'>
+                <ul className='menu'>
                     <li><a href="#">HESMAN STUDIO</a></li>
                     <li><a href="#">HESMEN LEGEND</a></li>
                     <li><a href="#">PARTNERS</a></li>
@@ -26,8 +26,7 @@ export default function Header() {
 
            <div className='btn-mobile'>
              <HiMenuAlt4/>
-           </div>
-           
+           </div>         
        </div>
     </div>
   ) 

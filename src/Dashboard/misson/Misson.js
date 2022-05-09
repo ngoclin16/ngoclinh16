@@ -76,6 +76,7 @@ const Inl = styled.div`
     margin-left: -1px;
     margin-top: -9px;
     height: 100vh;
+
   }
 `;
 const Total = styled.div`
@@ -83,7 +84,6 @@ const Total = styled.div`
   margin-bottom: 10px;
   @media screen and (max-width: 600px) {
     font-size: 70px;
-
 }
 `;
 const Title1 = styled.div`
@@ -161,6 +161,7 @@ const Img1 = styled.img`
     width: 407px;
     height: auto;
     top: 111px;
+
   }
 `;
 const Img2 = styled.img`
@@ -177,6 +178,7 @@ const Img2 = styled.img`
     border: solid 3px black;
     width: 400px;
     margin-top: 35px;
+
 }
 `;
 const Total2 = styled.div`
@@ -201,7 +203,7 @@ const Total3 = styled.div`
   font-size: 80px;
   @media screen and (max-width: 600px) {
     font-size: 50px;
-  }
+  } 
   
 `;
 const Title7 = styled.div`
