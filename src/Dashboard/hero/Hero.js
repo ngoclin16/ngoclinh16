@@ -7,7 +7,7 @@ const Hero = () => {
         <Content>
             <Img src = '../../../image/Hesman_021.png'/>
         </Content>
-        <Content1> 
+        <Content1>  
             <Img1 src = '/image/superhero.png'/>
         </Content1>
         <Content2>
@@ -47,6 +47,7 @@ const Content = styled.div`
     z-index: 20;
     @media screen and (max-width: 600px){
         z-index: 100;
+        width: 100%;
     }
 `
 const Content1 = styled.div` //superhero

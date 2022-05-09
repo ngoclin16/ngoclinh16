@@ -33,9 +33,15 @@ const Container = styled.div`
     background-size: contain;
     margin-left: -8px;
     background-repeat: no-repeat;
+    @media screen and (max-width: 768px){
+        background-image: none;  
+    }
 `
 const Total = styled.div`
     padding-right: 100px;
+    @media screen and (max-width: 768px){
+        padding-right: 34px;
+    }
 `
 
 const Title = styled.span`
@@ -45,6 +51,13 @@ const Title = styled.span`
     padding-top: 70px;
     padding-bottom: 20px;
     justify-content: center;  
+    @media screen and (max-width: 600px){
+        width: 100%;
+        font-size: 70px;
+        display: block;
+        line-height: 50px;
+        text-align: center;
+    }
 `
 const Title1 = styled.div`
 
@@ -55,6 +68,9 @@ const Title2 = styled.div`
 const Img = styled.img`
     width: 100%;
     height: 100%;
+    @media screen and (max-width: 600px){
+        display: none;
+    }
 `
 const Img0 = styled.div`
     width: 100%;
@@ -63,7 +79,10 @@ const Img0 = styled.div`
     justify-content: center;
     gap: 20px;
     margin-bottom: 60px;
-
+    @media screen and (max-width: 600px){
+        margin-left: 20px;
+        width: 100px;
+    }
 `
 const Img1 = styled.img`
     width: 180px;

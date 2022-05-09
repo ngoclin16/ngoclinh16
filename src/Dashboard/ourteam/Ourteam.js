@@ -39,6 +39,12 @@ const Ourteam = () => {
             </Text>
         </Border>
     </Footer1>
+    {/* <Hr></Hr>
+      <Text>
+        OVER 200 PROBLEM SOLVERS TO MAKING THE BETTER WORLD
+      </Text>
+    <Hr></Hr> */}
+   
     </Container>
   )
 }
@@ -50,8 +56,9 @@ const Container = styled.div`
     display: grid;
     grid-template-columns: 32% 68%;
     margin-bottom: 20px;
+    margin-left: -2px;
     @media screen and (max-width: 600px) {
-        display: block;
+        display: block; 
     }
 `
 const Footer1 = styled.div`
@@ -62,13 +69,17 @@ const Footer1 = styled.div`
     border: solid 3px black;
     margin-top: 20px;
     background: #E5E5E5;
+    @media screen and (max-width:  600px){
+        width: 100%;
+    }
     
 `
+
 const Border = styled.div`
     width: 100%;
 `
 const Text = styled.div`
-    text-align: center;
+    text-align: center;  
     font-weight: 700;
     word-spacing: 5px;
     padding-right: 7%;
@@ -79,7 +90,10 @@ const Column = styled.div`
     margin-left: 20px ;
     background-color: #ffff;
     &:first-child {
-    margin-left: 61px;
+    margin-left: 30px;
+    @media screen and (max-width: 600px) {
+        display: block;
+    }
   }
 `
 const Total = styled.div`
@@ -89,11 +103,13 @@ const Total = styled.div`
     font-weight: 700;
     margin-top: 80px;
     @media screen and (max-width: 600px) {
-        display: none;
     }
 `
 const Title1 = styled.div`
     line-height: 0.2;
+    @media screen and (max-width: 600px) {
+        display: block;
+    }
 `
 const Title2 = styled.div`
     color: #3b62ff;
@@ -101,6 +117,9 @@ const Title2 = styled.div`
 `
 const Total1 = styled.div`
     font-size: 80px;
+    @media screen and (max-width: 600px) {
+        display: block;
+    }
 `
 
 const Title3 = styled.div`
@@ -113,9 +132,7 @@ const Total2 = styled.div`
     height: auto;
     /* position: absolute; */
     display: flex;
-    @media screen and (max-width: 600px) {
-        /* display: none; */
-    }
+    
 ` 
 const Imgcontainer = styled.div`
 
@@ -123,7 +140,10 @@ const Imgcontainer = styled.div`
 const Img1 = styled.img`
     width: 450px;
     height: 500px;
-    margin-right: -135px;
+    margin-right: -155px;
+    @media screen and (max-width: 600px) {
+        display: block;
+    }
 `
 // const Img0 = styled.img`
 //     width: 200px;
@@ -133,14 +153,14 @@ const Img2 = styled.img`
     position: relative;
     width: 450px;
     height: 500px;
-    margin-right: -135px;
+    margin-right: -155px;
     filter: grayscale(1);
     &:hover{
         filter: grayscale(0);
-    }
+    } 
 `
 const Img3 = styled.img`
-    margin-right: -135px;
+    margin-right: -155px;
     width: 450px;
     height: 500px;
     filter: grayscale(1);
@@ -155,4 +175,9 @@ const Img4 = styled.img`
     &:hover{
         filter: grayscale(0);
     }
+`
+const Hr = styled.hr`
+    width: 1000%;
+    border: solid black;
+    margin: 33px -6px;  
 `

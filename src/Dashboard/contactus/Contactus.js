@@ -5,7 +5,7 @@ const Contactus = () => {
   return (
       <Container>
           <Column>
-            <Title>
+            <Title> 
                 <Title1>Contact</Title1>
                 <Title2>Us</Title2>
             </Title>
@@ -37,13 +37,16 @@ const Container = styled.div`
   margin-bottom: 20px;
   grid-template-columns: 50% 50%;
   padding-left: 30px 0;
-  
+  @media screen and (max-width: 600px) {
+      width: 100%;
+      display: block;
+  }
 `;
 
 const Column = styled.div`
   position: relative;
   margin-left: 20px ;
-  background-color: #ffff;
+  /* background-color: #ffff; */
   &:first-child {
     margin-left: 0;
   }
@@ -54,17 +57,31 @@ const Title = styled.div`
     font-weight: 700;
     padding-left: 20%;
     padding-top: 10%;
+    @media screen and (max-width: 600px) {
+      display: block;
+      text-align: center;margin-right: 61px;
+  }
 `
 const Title1 = styled.div`
-
+    @media screen and (max-width: 600px) {
+        font-size: 50px;
+        line-height: 40px;
+    }
 `
 const Title2 = styled.div`
     color: #3B62FF;
+    @media screen and (max-width: 600px) {
+        font-size: 50px;
+        line-height: 40px;
+    }
 `
 const Total = styled.div`
     margin-left: 20%;
     padding-bottom: 50px;
-    
+    @media screen and (max-width: 600px) {
+        margin: 0px;
+    }
+     
 `
 const Input1 = styled.input`
     width: 392px;
@@ -108,6 +125,9 @@ const Br = styled.br``
 const Image = styled.img`
     padding-top: 15%;
     width: 500px;
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
 `
 const Hr = styled.hr`
     width: 1000%;

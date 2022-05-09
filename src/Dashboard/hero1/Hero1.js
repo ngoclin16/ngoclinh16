@@ -164,7 +164,7 @@ const Text = styled.div`
     padding-right: 7%;
     @media screen and (max-width: 600px){
         font-size: 20px;
-    }
+    } 
 `
 const Span = styled.div`
   font-family: "Play", sans-serif;

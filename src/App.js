@@ -15,10 +15,10 @@ import Footer1 from "./Dashboard/footer1/Footer1";
 const App = () => {
 const ContainerApp = styled.div`
   width: 100%;
-  overflow: hidden;
+  overflow: hidden; 
 `
   return ( 
-    <ContainerApp>
+    <ContainerApp> 
       <Header/>
       <Hero/>      
       <Hero1/>
