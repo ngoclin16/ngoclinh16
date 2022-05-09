@@ -10,7 +10,7 @@ export default function Header() {
        <div className='container'>
            <div className="logo">
                 <img src="../../../image/Logo_11.png" className='lgo1' />
-           </div>
+           </div> 
            
            <div className="nav">
            {close &&  

@@ -61,12 +61,10 @@
         text-align: center;
         display: block;
         margin-left: -40px;
-        display: none;
+        /* display: none; */
 
     }
-    .menu-close{
-        display: none;
-    }
+    
     .btn-mobile {
         position: absolute;
         right: 0;
