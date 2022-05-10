@@ -81,11 +81,11 @@ const Ul = styled.ul`
     }
 `
 const Li = styled.li`
-    list-style: none;
+    list-style: none; 
 `
-const Image = styled.div`
+const Image = styled.div` 
     margin: 30px;
-    position: relative;
+    position: relative; 
     display: grid;
     grid-template-columns: repeat(4, 100px);
     left: 200px;

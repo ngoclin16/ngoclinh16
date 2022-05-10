@@ -14,21 +14,21 @@ export default function Header() {
            
            <div className="nav">
            
-               <ul className='menu' >
+              <ul className='menu' >
                     <li><a href="#">HESMAN STUDIO</a></li>
                     <li><a href="#">HESMEN LEGEND</a></li>
                     <li><a href="#">PARTNERS</a></li>
                     <li><a href="#">CONTACT</a></li>
-                </ul>
+              </ul>
               
            </div>
            
-           {/* <div className="cloud"> 
+           <div className="cloud"> 
                <img src="../../../image/JoinNow.png" className='lgo2' />
-           </div> */}
+           </div>
 
            <div className="btn-mobile">
-             <HiMenuAlt4/>
+             <HiMenuAlt4/> 
            </div>   
            
        </div>

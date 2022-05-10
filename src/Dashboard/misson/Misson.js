@@ -62,7 +62,7 @@ const Column = styled.div`
     margin-left: -26px;
   }
   @media screen and (max-width: 600px){ 
-    margin-left:-26px;  
+    margin-left:-26px;      
   }
 `;
 const Inl = styled.div`
@@ -72,6 +72,8 @@ const Inl = styled.div`
   z-index: 100;
   justify-content: center;
   font-weight: 700;
+  margin-left: 33px;
+  
   @media screen and (max-width: 600px) {
     margin-left: -1px;
     margin-top: -9px;
@@ -141,6 +143,7 @@ const Title6 = styled.div`
 const Img = styled.img`
   width: 100%;
   height: 100%;
+  margin-left: 20px;
   
   @media screen and (max-width: 600px) {
     display: block;
@@ -149,10 +152,10 @@ const Img = styled.img`
 `;
 
 const Img1 = styled.img`
-  width: 490px;
+  width: 500px;
   height: auto;
   position: absolute;
-  top: 98px;
+  top: 88px;
   z-index: 190;
   left: 5px;
   right: 1px;
@@ -165,10 +168,10 @@ const Img1 = styled.img`
   }
 `;
 const Img2 = styled.img`
-  width: 392px;
+  width: 390px;
   height: auto;
   position: absolute;
-  right: -20px;
+  right: -45px;
   z-index: 100;
   border: solid 5px black;
 
@@ -188,6 +191,7 @@ const Total2 = styled.div`
   justify-content: center;
   font-weight: 700;
   text-align: left;
+  margin-left: 20px;
   line-height: 1.3;
   
   @media screen and (max-width: 600px) {

@@ -15,11 +15,11 @@ const Gallery = () => {
 
       <Total1>
           <Column >
-            <Img src = '/image/Rectangle21.png'/>  
+            <Img src = '/image/Rectangle21.png'/>     
           </Column> 
       </Total1>
 
-        <Total2>
+        <Total2>         
           <Column>
             <Img1 src = '/image/HM-Banner-01.png'/>
             <Img2 src = '/image/HM-Banner-02.png'/>

@@ -42,3 +42,4 @@ const Content = styled.div `
   align-items: center;
   text-align: center;  
 `
+

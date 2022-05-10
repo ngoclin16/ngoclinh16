@@ -54,10 +54,10 @@ const Content1 = styled.div` //superhero
     height: auto;
     padding: 100px;
     position: absolute;
-    top: 0px;
+    top: -10px;
     left: 40%;
     margin-top: 30px;
-    z-index: 70;
+    z-index: 2;
     @media screen and (max-width: 600px){
         left: 0%;
         padding-left:0px;
@@ -66,11 +66,11 @@ const Content1 = styled.div` //superhero
 
 `
 const Content2 = styled.div` //comic
-    width: 650px;
+    width: 550px;
     height: 150px;
     padding: 100px;
     position: absolute;
-    top: -18px;
+    top: -40px;
     z-index: 10;
     margin:5% 0% 0 40%;
     left: 50px;
@@ -107,21 +107,25 @@ const Content4 = styled.div`
 
 `
 const Img = styled.img`
-    width: 650px;
-    height: auto;
-    top: -70px;
-    left: 20px;
+    width: 648px;
+    height: 750px;
+    position: absolute;
+    left: 51px;
+    top: 4px;
     @media screen and (max-width: 600px){
-        width: 444px;
-        height:auto;
+        top: -102px;
+        width: 554px;
+        height: 709px;
+        position: relative;
+        left: -118px;
         
     }
 `
 const Img1 = styled.img` //supper
-    width: 550px;
-    height: 180px;
-    top: 0;
-    right: 0;
+    width: 575px;
+    height: 169px;
+    position: absolute;
+    z-index: -10;
     @media screen and (max-width: 600px){
         width: 100%;
         height: 120px;
