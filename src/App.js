@@ -20,13 +20,13 @@ const ContainerApp = styled.div`
   return ( 
     <ContainerApp> 
       <Header/>
-      {/* <Hero/>      
+      <Hero/>      
       <Hero1/>
       <Misson/>
       <Ourteam/>
       <Gallery/>
       <Ourpartner/>
-      <Contactus/> */}
+      <Contactus/>
       <Footer1/>     
     </ContainerApp>
    );

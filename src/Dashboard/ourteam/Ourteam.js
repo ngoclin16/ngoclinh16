@@ -60,6 +60,7 @@ const Column = styled.div`
     border: 3px #000;
     display: grid;
     grid-template-columns: 32% 68%;
+    height: 100vh;
     &:first-child {
     margin-left: 30px;
     @media screen and (max-width: 600px) {

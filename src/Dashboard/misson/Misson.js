@@ -147,6 +147,7 @@ const Img = styled.img`
   
   @media screen and (max-width: 600px) {
     display: block;
+  margin-left: 20px;
     padding-right: 150px;
   }
 `;
@@ -168,7 +169,7 @@ const Img1 = styled.img`
   }
 `;
 const Img2 = styled.img`
-  width: 390px;
+  width: 392px;
   height: auto;
   position: absolute;
   right: -45px;
@@ -176,10 +177,10 @@ const Img2 = styled.img`
   border: solid 5px black;
 
   @media screen and (max-width: 600px) {
-    padding-left: 30px;
     height: 100vh;
     border: solid 3px black;
-    width: 400px;
+    width: 376px;
+    padding-right: 62px;
 
 }
 `;
