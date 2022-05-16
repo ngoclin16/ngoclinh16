@@ -21,7 +21,7 @@ const ContainerApp = styled.div`
     <ContainerApp> 
       <Header/>
       <Hero/>      
-      <Hero1/>
+      <Hero1/> 
       <Misson/>
       <Ourteam/>
       <Gallery/>

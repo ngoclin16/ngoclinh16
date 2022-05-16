@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Hero = () => {
-  return (
+  return ( 
     <Container>
         <Content>
             <Img src = '../../../image/Hesman_021.png'/>

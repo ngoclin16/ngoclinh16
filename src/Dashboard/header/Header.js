@@ -26,7 +26,7 @@ export default function Header() {
            <div className="cloud"> 
                <img src="../../../image/JoinNow.png" className='lgo2' />
            </div>
-
+            
            <div className="btn-mobile">
              <HiMenuAlt4/> 
            </div>   
